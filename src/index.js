@@ -6,7 +6,7 @@ import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 app.on("error", (error) => {
   console.log("ERROR: app is not able to talk to db", error);
